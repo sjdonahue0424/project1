@@ -1,0 +1,6 @@
+April 17,2018
+Version 2
+
+GIT BOOK
+git config --global core.editor "'C:/Users/donah/OneDrive/Documents/emacs/emacs/runemacs.exe' -multiInst -nosession"
+# test line
