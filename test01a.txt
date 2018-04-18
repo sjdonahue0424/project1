@@ -1,6 +1,17 @@
-April 17,2018
+April 18,2018
 Version 2
 
 GIT BOOK
 git config --global core.editor "'C:/Users/donah/OneDrive/Documents/emacs/emacs/runemacs.exe' -multiInst -nosession"
 # test line
+git config --global core.editor "emacs" -m
+
+hint: Waiting for your editor to close the file... error: cannot spawn emacs: No such file or directory
+
+git config --global core.editor "'C:/Users/donah/OneDrive/Documents/emacs/emacs/bin/runemacs.exe' -multiInst -nosession"
+C:\Users\donah\OneDrive\Documents\emacs\emacs\bin
+
+
+git config --global core.editor "'C:/Users/donah/OneDrive/Documents/emacs/emacs/bin/runemacs.exe' -multiInst -nosession  -replace-all"
+
+git config --replace-all core.editor emacs
